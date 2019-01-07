@@ -47,4 +47,5 @@ goto :top
 cd bin\
 tar -xf pokenames.zip
 del pokenames.zip
+cd ..
 @exit /b
