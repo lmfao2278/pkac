@@ -1,5 +1,5 @@
 @echo on
-if exist bin\pokenames.zip call :pokenames
+if not exist bin\pokenames\ call :pokenames
 set nope=::
 title Pokecord Auto Catcher! Explorer Edition
 cd bin
