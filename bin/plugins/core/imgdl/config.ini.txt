@@ -1,0 +1,23 @@
+[auth]
+email    = stormydaniels@porn.biz
+password = trumpishard
+
+[general]
+skip edits                           = true
+download tistory sites               = false
+max download retries                 = 5
+download timeout                     = 60
+send notices to interactive channels = false
+
+[channels]
+502764604997369856 = imgs
+
+[flickr]
+api key = your flickr api key
+
+[twitter]
+consumer key        = your consumer key
+consumer secret     = your consumer secret
+access token        = your access token
+access token secret = your access token secret
+

@@ -1,0 +1,8 @@
+bin/plugins/core/spam/*.js
+bin/plugins/core/imgdl/*.ini
+bin/plugins/core/imgdl/database/*
+bin/plugins/external/log-search/bin/*
+*.log
+*.vbs
+*.tmp
+
