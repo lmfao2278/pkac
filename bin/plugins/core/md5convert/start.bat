@@ -20,12 +20,12 @@ set pokename=
 
 :log
 type %root%\common-ish.txt | findstr /x /c:"%pokename%"
-if %errorlevel% == 0 set label=COMMON-ISH
+if %errorlevel% == 0 set label=EH OKAY IG
 type %root%\common.txt | findstr /x /c:"%pokename%"
-if %errorlevel% == 0 set label=COMMON
+if %errorlevel% == 0 set label=BORING
 type %root%\rare-ish.txt | findstr /x /c:"%pokename%"
-if %errorlevel% == 0 set label=RARE-ISH
+if %errorlevel% == 0 set label=KINDA HOT
 type %root%\rare.txt | findstr /x /c:"%pokename%"
-if %errorlevel% == 0 set label=RARE
+if %errorlevel% == 0 set label=BLAZIN HOT
 echo.^[%date:~7,2%-%date:~4,2%-%date:~12,4%^] ^[%TIME:~0,8%^] ^[%label%^] %pokename% has been caught. >> %log-root%\log.log
 @exit /b
